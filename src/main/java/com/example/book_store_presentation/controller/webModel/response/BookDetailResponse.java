@@ -1,6 +1,7 @@
 package com.example.book_store_presentation.controller.webModel.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.validation.constraints.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -22,4 +23,4 @@ public record BookDetailResponse(
         PublisherSummaryResponse publisher,
         List<AuthorSummaryResponse> authors
 )
-{}
+{ }

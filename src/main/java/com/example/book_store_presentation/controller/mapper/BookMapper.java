@@ -1,9 +1,10 @@
 package com.example.book_store_presentation.controller.mapper;
 
-import es.cesguiro.daw2_bookstore.controller.webModel.request.BookInsertRequest;
-import es.cesguiro.daw2_bookstore.controller.webModel.request.BookUpdateRequest;
-import es.cesguiro.daw2_bookstore.controller.webModel.response.BookDetailResponse;
-import es.cesguiro.daw2_bookstore.controller.webModel.response.BookSummaryResponse;
+
+import com.example.book_store_presentation.controller.webModel.request.BookInsertRequest;
+import com.example.book_store_presentation.controller.webModel.request.BookUpdateRequest;
+import com.example.book_store_presentation.controller.webModel.response.BookDetailResponse;
+import com.example.book_store_presentation.controller.webModel.response.BookSummaryResponse;
 import es.cesguiro.domain.service.dto.AuthorDto;
 import es.cesguiro.domain.service.dto.BookDto;
 import es.cesguiro.domain.service.dto.PublisherDto;
