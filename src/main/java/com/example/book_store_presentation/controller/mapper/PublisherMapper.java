@@ -1,7 +1,7 @@
 package com.example.book_store_presentation.controller.mapper;
 
-import es.cesguiro.daw2_bookstore.controller.webModel.response.PublisherDetailResponse;
-import es.cesguiro.daw2_bookstore.controller.webModel.response.PublisherSummaryResponse;
+import com.example.book_store_presentation.controller.webModel.response.PublisherDetailResponse;
+import com.example.book_store_presentation.controller.webModel.response.PublisherSummaryResponse;
 import es.cesguiro.domain.service.dto.PublisherDto;
 
 public class PublisherMapper {
